@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main {
+  padding: 2rem 1rem;
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.side {
+  padding: 2rem 1rem;
+  background-color: #ffe5e6;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+h2 {
+  padding: 0.5rem 0;
+}
+
+.top {
+  margin-bottom: 1rem;
+}
+
+.line {
+  border-bottom: 2px solid #606ba7;
+  width: 4rem;
+  padding-top: 0.2rem;
+}
+
+.line2 {
+  border-bottom: 2px solid #606ba7;
+  width: 2rem;
+  padding-top: 0.2rem;
+}
+
+.sub {
+  margin: 2rem 0;
+}
+
+/* This aligns the bullet properly */
+li {
+  margin-left: 1em;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 760px) {
+  .wrapper {
+    max-width: 80%;
+    display: flex;
+  }
+
+  .side {
+    order: -1;
+  }
+}
